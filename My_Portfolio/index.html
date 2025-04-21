@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey It's Uday Here!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dade16121a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGO.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" float="right"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#services"><b>Services</b></a></li>
+                    <li><a href="#portfolio"><b>Projects</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                    <b><i class="fa-solid fa-xmark " onclick="closemenu()" id="item"></i></b>
+                </ul>
+                <b><i class="fa-solid fa-bars" onclick="openmenu()" id="item"></i></b>
+            </nav>
+            <div class="header-text">
+                <p style="color: white; font-style: Copperplate, Papyrus, fantasy;" ><b>SDE | FULL STACK DEVELOPER</b></p>
+                <h1>Hi, I'm <span>Udaya</span><br> Somanna From India</h2>
+            </div>
+        </div>
+    </div>
+    <!------------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p style="font-size: 20px;"><b style="color: white;">Hi, I’m Udaya Somanna – A Problem Solver in Code!</b><br>
+                        <br>
+                        I’m a Software Developer with a passion for building efficient, high-performance applications. With a <b>Bachelor’s in Computer Science & Engineering</b> and hands-on experience across <b>.NET, Java, Node.js, React, and Python</b>, I turn ideas into reality through clean, scalable code.<br>
+                        <br>
+                        Currently, I’m an <b>SDE | .NET Developer at Andaze Ltd.</b>, optimizing systems for speed, security, and stability. From <b>cutting processing times by 40%</b> to enhancing <b>data validation and security</b>, I thrive on making applications run <b>smarter and faster</b>.<br>
+                        <br>
+                        Previously, I’ve built <b>full-stack applications</b>, worked with databases like <b>MySQL & MongoDB</b>, and tackled critical performance bottlenecks. Whether it’s <b>backend architecture, front-end design, or debugging tough issues</b>, I love <b>solving problems with code.</b>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>SDE (Software Development Engineer)</span><br>Developing Effecient Software</li>
+                            <li><span>Full Stack Developer</span><br>Developing Web Applications</li>
+                            <li><span>Certified Data Analyst</span><br>Data Analysis</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>SDE | DotNET DEVELOPER, Remote </span><br>アンダーズ株式会社（Andaze Ltd.) (January 01, 2024 - Present)</li>
+                            <li><span>Java Full Stack Developer Intern</span><br>KODNEST (March 30, 2023 - December 2023)</li>
+                            <li><span>Python Full Stack Developer</span><br>PENTAGON SPACE (August 05, 2022 - September 01, 2022)</li>
+                            <li><span>Ethical Hacking Intern</span><br>EDUFABRICA TRAINING & INTERNSHIP PROGRAM (August 01, 2021 - September 28,2021)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Bachelor Of Engineering (Computer Science & Engineering)</span><br>Visvesvaraya Technological University (May 2019 - August 2023)</li>
+                            <li><span>Pre University</span><br>Mahesh Pu College (2017-2019)</li>
+                            <li><span>SSLC</span><br>Rotary Brindavan School Mysore (2016-2017)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------services------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code fa-bounce"></i>
+                    <h2>SDE (Software Development Engineer)</h2>
+                    <p>A seasoned Java Software Developer with expertise in creating robust, scalable applications and a deep understanding of Java frameworks, and a versatile Python Software Developer with a strong background in web development, data analysis, and automation, skilled in leveraging Python libraries and frameworks to deliver innovative and efficient software solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code fa-bounce"></i>
+                    <h2>Full Stack Developer</h2>
+                    <p>A proficient Full Stack Developer with expertise in both front-end and back-end technologies, capable of creating end-to-end web applications. Skilled in various programming languages, frameworks, and databases, and dedicated to delivering comprehensive software solutions that seamlessly integrate user interfaces and server-side functionalities.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart fa-beat"></i>
+                    <h2>Certified Data Analyst</h2>
+                    <p>A certified Data Analyst with a strong command of data manipulation and analysis tools, possessing the skills to extract valuable insights from complex datasets. Experienced in data visualization, statistical analysis, and proficient in programming languages like Python and R, dedicated to providing data-driven solutions for informed decision-making.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------Portfolio | My work------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/drone vs bird.png" alt="work 1">
+                    <div class="layer">
+                        <h3>Bird v/s Drone</h3>
+                        <p> Utilized deep learning, particularly Convolutional Neural Networks (CNNs), for real-time
+                            classification of drones and birds, addressing safety and security concerns.</p>
+                        <a href="https://github.com/devilphenom/A-Deep-Learning-Approach-to-Classify-Drones-and-Birds.git"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Army database  management system.png" alt="work 2">
+                    <div class="layer">
+                        <h3>Military Database Management System</h3>
+                        <p>Designed and developed a mini-project to facilitate efficient data management for
+                            armed forces , with a user-friendly website using HTML, CSS, and JavaScript for the front-end,
+                            while implementing PHP for server-side scripting and backend support.
+                            </p>
+                        <a href="https://github.com/devilphenom/Military-Database-Management-System-.git"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/online blood bank.png" alt="work 3">
+                    <div class="layer">
+                        <h3>Online Blood Bank</h3>
+                        <p>The online blood bank management system is a web-based application developed using the Python programming language and the Django framework. 
+                            The main objective of this project is to provide a platform for donors to 
+                            donate blood and for patients to receive blood in a timely and efficient manner.</p>
+                        <a href="https://github.com/devilphenom/Online-Blood-Bank-Management-System.git"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/devilphenom/Projects.git" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------------contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>udayas072001@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9945536439</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/uday-shetty-yes-its-me/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/udayasomanna?igsh=MXRjZWQyYzNsNmkxZw=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/devilphenom"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/uday-shetty-yes-its-me/"><i class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                    <a href="images/UDAYA_SOMANNA - RESUME _.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div> 
+        <div class="copyright">
+            <p>Copyright © 2023 Udaya Somanna <i class="fa-solid fa-crown" style="color: #cddb0c;"></i>. All rights reserved.</p>
+        </div> 
+    </div>
+    <a href="#" class="to-top active">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+
+    <script>
+        const toTop = document.querySelector(".to-top");
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 100) {
+                toTop.classList.add("active");
+            } else {
+                toTop.classList.remove("active");
+            }
+})
+    </script>
+    
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz4QT4bthrIZZtBk6M5u5_aYZQz0wOJBHpjTiMm3MoS3cIJ1YDKCyiZyDKDgG8rpBwdIQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
